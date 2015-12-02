@@ -1,0 +1,9 @@
+<form action="/tasks/<%= @id %>" method="post">
+  <label for='name'>Task:</label>
+  <input type="text" name="name" placeholder="<%= @task['name'] %>" value="<%= @task['name'] %>">
+
+  <label for='details'>Details:</label>
+  <textarea name='details' placeholder="<%= @task['details'] %>"><%= @task['details'] %></textarea>
+
+  <button>Update task</button>
+</form>

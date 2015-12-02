@@ -1,0 +1,137 @@
+html, body {
+  font-family: helvetica;
+  margin: 0;
+  margin-top: 40px;
+  color: rgba(0,0,0,0.87);
+}
+
+div.header {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #FFEB3B;
+  text-align: center;
+}
+
+div.content {
+  padding: 10px;
+  left: 25px;
+  position: relative;
+}
+
+nav {
+  position: relative;
+  top: -80px;
+  height: 480px;
+  width: 175px;
+  background-color: #FFF176;
+  float: left;
+  margin-top: 0;
+  z-index: 1;
+}
+
+nav div{
+  background-color: #FBC02D;
+  height: 80px;
+  width: 100%;
+  display: table;
+}
+nav h3 {
+  margin: 0 0;
+  display: table-cell;
+  vertical-align: bottom;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0,0,0,0.87);
+}
+a:visited {
+  color: rgba(0,0,0,0.87);
+}
+a:hover {
+  color: #673AB7;
+}
+
+thead {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+table {
+  border-collapse: collapse;
+  width: 800px;
+}
+
+tr:nth-child(even) {
+  background-color: #FFF9C4;
+}
+
+td {
+  white-space: nowrap;
+  padding-right: 10px;
+}
+
+td:nth-child(even) {
+  width: 100%;
+}
+
+input {
+  display: block;
+  background-color: #FFF176;
+}
+
+textarea {
+  display: block;
+  width: 600px;
+  height: 250px;
+  background-color: #FFF176;
+}
+
+button {
+  margin-top: 5px;
+  border-radius: 0px;
+  padding: 10px;
+  background-color: #673AB7;
+  color: rgba(255,255,255,0.87);
+  border: 0;
+  border-right: 2px solid #9575CD; 
+  border-bottom: 2px solid #9575CD;
+  font-size: 0.8em;
+}
+
+button:active {
+  background-color: #512DA8;
+  border: 0;
+  border-left: 2px solid #9575CD; 
+  border-top: 2px solid #9575CD;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+a.button {
+  margin-top: 5px;
+  border-radius: 0px;
+  padding: 10px;
+  background-color: #673AB7;
+  color: rgba(255,255,255,0.87);
+  border: 0;
+  border-right: 2px solid #9575CD; 
+  border-bottom: 2px solid #9575CD;
+  font-size: 0.8em;
+}
+
+a.button:active {
+  background-color: #512DA8;
+  border: 0;
+  border-left: 2px solid #9575CD; 
+  border-top: 2px solid #9575CD;
+}
+
+a.button:hover {
+  cursor: pointer;
+}

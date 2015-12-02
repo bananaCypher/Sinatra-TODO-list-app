@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TodoApp</title>
+  <link href="/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div class='header'>
+  <h1>ToDo App</h1>
+</div>
+
+<nav>
+  <div>
+    <h3>Navigation</h3>
+  </div>
+  <ul>
+    <li><a href="/tasks">View all tasks</a></li>
+    <li><a href="/tasks/new">New task</a></li>
+  </ul>
+</nav>
+
+<div class='content'>
+  <%= yield %>
+</div>
+
+</body>
+</html>

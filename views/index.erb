@@ -1,0 +1,12 @@
+<table>
+  <thead>
+    <td>Task name</td>
+    <td>Details</td>
+  </thead>
+  <% for task in @tasks %>
+    <tr>     
+      <td><a href="/tasks/<%= task['id'] %>"><%= task['name'] %></a></td>
+      <td><%= task['details'] %></td>
+    </tr>
+  <% end %>
+</table>
